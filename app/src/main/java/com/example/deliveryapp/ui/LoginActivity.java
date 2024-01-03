@@ -1,4 +1,4 @@
-package com.example.deliveryapp;
+package com.example.deliveryapp.ui;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -8,6 +8,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
+
+import com.example.deliveryapp.R;
 
 public class LoginActivity extends AppCompatActivity {
     EditText username, password;
