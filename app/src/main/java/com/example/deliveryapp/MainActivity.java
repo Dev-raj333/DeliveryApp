@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         } else if(itemId == R.id.myOrder){
 
         }else if(itemId == R.id.profile){
-
+            getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new ProfileFragment()).commit();
         } else if (itemId == R.id.logout) {
             showLogoutConformationDialog();
         }
